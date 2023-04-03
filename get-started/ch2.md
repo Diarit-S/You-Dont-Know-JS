@@ -456,7 +456,7 @@ JS does not provide a mechanism for structural equality comparison of object val
 
 But beware, it's more complicated than you'll assume. For example, how might you determine if two function references are "structurally equivalent"? Even stringifying to compare their source code text wouldn't take into account things like closure. JS doesn't provide structural equality comparison because it's almost intractable to handle all the corner cases!
 
-### Coercive Comparisons
+### Coercive Comparisons 00000000
 
 Coercion means a value of one type being converted to its respective representation in another type (to whatever extent possible). As we'll discuss in Chapter 4, coercion is a core pillar of the JS language, not some optional feature that can reasonably be avoided.
 
